@@ -68,7 +68,7 @@ fastlane/test_output
 =======
 
 # Sensitive details about remote backup
-Loop Follow/RemoteSettings.plist
+Loop-Follow/RemoteSettings.plist
 
 # OS
 .DS_Store

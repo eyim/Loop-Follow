@@ -14,9 +14,9 @@
 		820EEBFB1D90A9E20067EAC7 /* Loop_FollowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EEBFA1D90A9E20067EAC7 /* Loop_FollowTests.swift */; };
 		820EEC061D90A9E20067EAC7 /* Loop_FollowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EEC051D90A9E20067EAC7 /* Loop_FollowUITests.swift */; };
 		820EEC1C1D90B1610067EAC7 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820EEC1B1D90B1610067EAC7 /* WindowsAzureMobileServices.framework */; };
-		826A59291D983A6C00B0095A /* RemoteSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826A59281D983A6C00B0095A /* RemoteSettings.plist */; };
 		826A593F1D9871AD00B0095A /* NSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826A593E1D9871AD00B0095A /* NSBundle.swift */; };
 		826A59421D98729D00B0095A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826A59411D98729D00B0095A /* ViewController.swift */; };
+		827E996D1DB2B1FD003BA867 /* RemoteSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 827E996C1DB2B1FD003BA867 /* RemoteSettings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		820EEC191D90AFBA0067EAC7 /* Loop Follow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Loop Follow.entitlements"; sourceTree = "<group>"; };
 		820EEC1B1D90B1610067EAC7 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
 		820EEC1D1D90B2D60067EAC7 /* Azure Mobile Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Azure Mobile Services.h"; path = "Loop Follow/Azure Mobile Services.h"; sourceTree = "<group>"; };
-		826A59281D983A6C00B0095A /* RemoteSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteSettings.plist; sourceTree = "<group>"; };
 		826A593E1D9871AD00B0095A /* NSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundle.swift; sourceTree = "<group>"; };
 		826A59411D98729D00B0095A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		827E996C1DB2B1FD003BA867 /* RemoteSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteSettings.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +86,7 @@
 		820EEBD91D90A9E20067EAC7 = {
 			isa = PBXGroup;
 			children = (
+				827E996C1DB2B1FD003BA867 /* RemoteSettings.plist */,
 				820EEC1A1D90B1530067EAC7 /* Framework */,
 				820EEBE41D90A9E20067EAC7 /* Loop Follow */,
 				820EEBF91D90A9E20067EAC7 /* Loop FollowTests */,
@@ -110,7 +111,6 @@
 				826A59401D98727F00B0095A /* View Controllers */,
 				826A593D1D9871AD00B0095A /* Extensions */,
 				826A59331D983CEE00B0095A /* Managers */,
-				826A59281D983A6C00B0095A /* RemoteSettings.plist */,
 				820EEC191D90AFBA0067EAC7 /* Loop Follow.entitlements */,
 				820EEBE51D90A9E20067EAC7 /* AppDelegate.swift */,
 				820EEBE91D90A9E20067EAC7 /* Main.storyboard */,
@@ -293,7 +293,7 @@
 				820EEBF01D90A9E20067EAC7 /* LaunchScreen.storyboard in Resources */,
 				820EEBED1D90A9E20067EAC7 /* Assets.xcassets in Resources */,
 				820EEBEB1D90A9E20067EAC7 /* Main.storyboard in Resources */,
-				826A59291D983A6C00B0095A /* RemoteSettings.plist in Resources */,
+				827E996D1DB2B1FD003BA867 /* RemoteSettings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
