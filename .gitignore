@@ -52,6 +52,9 @@ playground.xcworkspace
 
 Carthage/Build
 
+# Sensitive details about remote backup
+Loop Follow/RemoteSettings.plist
+
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
