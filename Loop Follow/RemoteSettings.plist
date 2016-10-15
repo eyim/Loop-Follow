@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AzureMobileServiceURL</key>
+	<string>https://nightscoutalert.azure-mobile.net</string>
+	<key>AzureMobileServiceAppKey</key>
+	<string>xdyJRCthnIuMViGOsaoLuPJvSPjufs82</string>
+	<key>AzureWebURL</key>
+	<string>https://webhead.azurewebsites.net</string>
+</dict>
+</plist>

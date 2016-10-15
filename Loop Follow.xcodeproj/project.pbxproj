@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		820EEBE61D90A9E20067EAC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EEBE51D90A9E20067EAC7 /* AppDelegate.swift */; };
-		820EEBE81D90A9E20067EAC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EEBE71D90A9E20067EAC7 /* ViewController.swift */; };
 		820EEBEB1D90A9E20067EAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820EEBE91D90A9E20067EAC7 /* Main.storyboard */; };
 		820EEBED1D90A9E20067EAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820EEBEC1D90A9E20067EAC7 /* Assets.xcassets */; };
 		820EEBF01D90A9E20067EAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820EEBEE1D90A9E20067EAC7 /* LaunchScreen.storyboard */; };
 		820EEBFB1D90A9E20067EAC7 /* Loop_FollowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EEBFA1D90A9E20067EAC7 /* Loop_FollowTests.swift */; };
 		820EEC061D90A9E20067EAC7 /* Loop_FollowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EEC051D90A9E20067EAC7 /* Loop_FollowUITests.swift */; };
+		820EEC1C1D90B1610067EAC7 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820EEC1B1D90B1610067EAC7 /* WindowsAzureMobileServices.framework */; };
+		826A59291D983A6C00B0095A /* RemoteSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826A59281D983A6C00B0095A /* RemoteSettings.plist */; };
+		826A593F1D9871AD00B0095A /* NSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826A593E1D9871AD00B0095A /* NSBundle.swift */; };
+		826A59421D98729D00B0095A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826A59411D98729D00B0095A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		820EEBE21D90A9E20067EAC7 /* Loop Follow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loop Follow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		820EEBE51D90A9E20067EAC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		820EEBE71D90A9E20067EAC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		820EEBEA1D90A9E20067EAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		820EEBEC1D90A9E20067EAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		820EEBEF1D90A9E20067EAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,12 @@
 		820EEC011D90A9E20067EAC7 /* Loop FollowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Loop FollowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		820EEC051D90A9E20067EAC7 /* Loop_FollowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop_FollowUITests.swift; sourceTree = "<group>"; };
 		820EEC071D90A9E20067EAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820EEC191D90AFBA0067EAC7 /* Loop Follow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Loop Follow.entitlements"; sourceTree = "<group>"; };
+		820EEC1B1D90B1610067EAC7 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		820EEC1D1D90B2D60067EAC7 /* Azure Mobile Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Azure Mobile Services.h"; path = "Loop Follow/Azure Mobile Services.h"; sourceTree = "<group>"; };
+		826A59281D983A6C00B0095A /* RemoteSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteSettings.plist; sourceTree = "<group>"; };
+		826A593E1D9871AD00B0095A /* NSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundle.swift; sourceTree = "<group>"; };
+		826A59411D98729D00B0095A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820EEC1C1D90B1610067EAC7 /* WindowsAzureMobileServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 		820EEBD91D90A9E20067EAC7 = {
 			isa = PBXGroup;
 			children = (
+				820EEC1A1D90B1530067EAC7 /* Framework */,
 				820EEBE41D90A9E20067EAC7 /* Loop Follow */,
 				820EEBF91D90A9E20067EAC7 /* Loop FollowTests */,
 				820EEC041D90A9E20067EAC7 /* Loop FollowUITests */,
@@ -97,8 +107,12 @@
 		820EEBE41D90A9E20067EAC7 /* Loop Follow */ = {
 			isa = PBXGroup;
 			children = (
+				826A59401D98727F00B0095A /* View Controllers */,
+				826A593D1D9871AD00B0095A /* Extensions */,
+				826A59331D983CEE00B0095A /* Managers */,
+				826A59281D983A6C00B0095A /* RemoteSettings.plist */,
+				820EEC191D90AFBA0067EAC7 /* Loop Follow.entitlements */,
 				820EEBE51D90A9E20067EAC7 /* AppDelegate.swift */,
-				820EEBE71D90A9E20067EAC7 /* ViewController.swift */,
 				820EEBE91D90A9E20067EAC7 /* Main.storyboard */,
 				820EEBEC1D90A9E20067EAC7 /* Assets.xcassets */,
 				820EEBEE1D90A9E20067EAC7 /* LaunchScreen.storyboard */,
@@ -123,6 +137,39 @@
 				820EEC071D90A9E20067EAC7 /* Info.plist */,
 			);
 			path = "Loop FollowUITests";
+			sourceTree = "<group>";
+		};
+		820EEC1A1D90B1530067EAC7 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				820EEC1D1D90B2D60067EAC7 /* Azure Mobile Services.h */,
+				820EEC1B1D90B1610067EAC7 /* WindowsAzureMobileServices.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		826A59331D983CEE00B0095A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		826A593D1D9871AD00B0095A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				826A593E1D9871AD00B0095A /* NSBundle.swift */,
+			);
+			name = Extensions;
+			path = "Loop Follow/Extensions";
+			sourceTree = SOURCE_ROOT;
+		};
+		826A59401D98727F00B0095A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				826A59411D98729D00B0095A /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +241,15 @@
 					820EEBE11D90A9E20067EAC7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 698QCJS29T;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					820EEBF51D90A9E20067EAC7 = {
 						CreatedOnToolsVersion = 8.0;
@@ -238,6 +293,7 @@
 				820EEBF01D90A9E20067EAC7 /* LaunchScreen.storyboard in Resources */,
 				820EEBED1D90A9E20067EAC7 /* Assets.xcassets in Resources */,
 				820EEBEB1D90A9E20067EAC7 /* Main.storyboard in Resources */,
+				826A59291D983A6C00B0095A /* RemoteSettings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				820EEBE81D90A9E20067EAC7 /* ViewController.swift in Sources */,
+				826A593F1D9871AD00B0095A /* NSBundle.swift in Sources */,
+				826A59421D98729D00B0095A /* ViewController.swift in Sources */,
 				820EEBE61D90A9E20067EAC7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,12 +415,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -402,10 +460,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -415,12 +474,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Loop Follow/Loop Follow.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 698QCJS29T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/WindowsAzureMobileServices.framework/Headers";
 				INFOPLIST_FILE = "Loop Follow/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mazaheri.Loop-Follow";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mazaheri.Loop.Follow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE = "90384a02-2eb3-4a57-b349-cb56138a636d";
+				PROVISIONING_PROFILE_SPECIFIER = "Loop Follow Push";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/Loop Follow/Azure Mobile Services.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,12 +503,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Loop Follow/Loop Follow.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 698QCJS29T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/WindowsAzureMobileServices.framework/Headers";
 				INFOPLIST_FILE = "Loop Follow/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mazaheri.Loop-Follow";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mazaheri.Loop.Follow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE = "90384a02-2eb3-4a57-b349-cb56138a636d";
+				PROVISIONING_PROFILE_SPECIFIER = "Loop Follow Push";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/Follow App/Azure Mobile Services.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +606,7 @@
 				820EEC0C1D90A9E20067EAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		820EEC0D1D90A9E20067EAC7 /* Build configuration list for PBXNativeTarget "Loop FollowTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +615,7 @@
 				820EEC0F1D90A9E20067EAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		820EEC101D90A9E20067EAC7 /* Build configuration list for PBXNativeTarget "Loop FollowUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +624,7 @@
 				820EEC121D90A9E20067EAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
