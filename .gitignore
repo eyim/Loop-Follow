@@ -52,8 +52,6 @@ playground.xcworkspace
 
 Carthage/Build
 
-# Sensitive details about remote backup
-Loop Follow/RemoteSettings.plist
 
 # fastlane
 #
@@ -66,3 +64,12 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+<<<<<<< HEAD
+=======
+
+# Sensitive details about remote backup
+Loop Follow/RemoteSettings.plist
+
+# OS
+.DS_Store
+
