@@ -52,10 +52,6 @@ playground.xcworkspace
 
 Carthage/Build
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 237a2d7916e25a1bab0afe620e95e5f2554d7af6
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
