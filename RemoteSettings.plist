@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>AzureMobileServiceURL</key>
-	<string>https://nightscoutalert.azure-mobile.net</string>
+	<string></string>
 	<key>AzureMobileServiceAppKey</key>
-	<string>xdyJRCthnIuMViGOsaoLuPJvSPjufs82</string>
+	<string></string>
 	<key>AzureWebURL</key>
-	<string>https://webhead.azurewebsites.net</string>
+	<string></string>
 </dict>
 </plist>
