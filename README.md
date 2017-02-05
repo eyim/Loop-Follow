@@ -10,6 +10,6 @@ In this wiki we will setup the Loop-Follow iOS portion and configure our Azure n
 
 Prior to setting up the Loop-Follow Application we need to create a provisioning profile that we will use in XCode to compile/deploy the Loop-Follow application.
 
-For future releases we are planning to use a shared Push notification service hosted on NightScout Azure subscription to simplify the process and make it available to Loop users not using Azure and also a free service comparing to Push Over with more flexibility!
+For future releases we are planning to use a shared Push notification service hosted on NightScout Foundation Azure subscription to simplify the process and make it available to Loop users not using Azure and also a free service comparing to Push Over with more flexibility!
 
 For instructions go to [wiki](https://github.com/amazaheri/Loop-Follow/wiki)
