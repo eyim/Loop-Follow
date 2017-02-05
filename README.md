@@ -1,6 +1,8 @@
 # Loop-Follow
 The Loop-Follow application is a simple iOS app written in Swift that accepts notifications from Loop and are powered by Azure. The setup for the Loop-Follow application iOS portion is a little more involved than setting up the Loop application.
 
+For more background read this [blog post](https://blogs.msdn.microsoft.com/alimaz/2016/09/22/azure-logic-apps-azure-sql-and-loop-better-together-part-ii/)
+
 ![](https://msdnshared.blob.core.windows.net/media/2016/09/20160922_152515000_iOS-169x300.png)
 ![](https://msdnshared.blob.core.windows.net/media/2016/09/20160921_044556000_iOS-169x300.png)
 
