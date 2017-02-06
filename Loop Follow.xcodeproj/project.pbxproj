@@ -262,7 +262,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8QU4PEB592;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -419,8 +419,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Greg Scull (45Q95JE7R3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Greg Scull (45Q95JE7R3)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 8QU4PEB592;
@@ -443,6 +443,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "fdb62be9-0d84-446f-a90a-4b8cb7d6f381";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -472,7 +473,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Greg Scull (45Q95JE7R3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -489,6 +490,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "fdb62be9-0d84-446f-a90a-4b8cb7d6f381";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 2.3;
@@ -519,8 +521,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.komby.Loop.Follow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "bb123acd-4a35-4a8a-8401-db0824e93e36";
+				PROVISIONING_PROFILE_SPECIFIER = "Loop Follow Push";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/Loop Follow/Azure Mobile Services.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -549,8 +551,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.komby.Loop.Follow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "bb123acd-4a35-4a8a-8401-db0824e93e36";
+				PROVISIONING_PROFILE_SPECIFIER = "Loop Follow Push";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/Follow App/Azure Mobile Services.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -625,7 +627,7 @@
 				820EEC091D90A9E20067EAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		820EEC0A1D90A9E20067EAC7 /* Build configuration list for PBXNativeTarget "Loop Follow" */ = {
 			isa = XCConfigurationList;
@@ -634,7 +636,7 @@
 				820EEC0C1D90A9E20067EAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		820EEC0D1D90A9E20067EAC7 /* Build configuration list for PBXNativeTarget "Loop FollowTests" */ = {
 			isa = XCConfigurationList;
@@ -643,7 +645,7 @@
 				820EEC0F1D90A9E20067EAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		820EEC101D90A9E20067EAC7 /* Build configuration list for PBXNativeTarget "Loop FollowUITests" */ = {
 			isa = XCConfigurationList;
@@ -652,7 +654,7 @@
 				820EEC121D90A9E20067EAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
