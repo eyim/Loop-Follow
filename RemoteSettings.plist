@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>AzureMobileServiceURL</key>
-	<string>https://kombyloopfollow.azurewebsites.net</string>
+	<string></string>
 	<key>AzureMobileServiceAppKey</key>
 	<string></string>
 	<key>AzureWebURL</key>
-	<string>https://raisingainsley.azurewebsites.net</string>
+	<string></string>
 </dict>
 </plist>
