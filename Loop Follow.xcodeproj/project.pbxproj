@@ -13,10 +13,13 @@
 		820EEBF01D90A9E20067EAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820EEBEE1D90A9E20067EAC7 /* LaunchScreen.storyboard */; };
 		820EEBFB1D90A9E20067EAC7 /* Loop_FollowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EEBFA1D90A9E20067EAC7 /* Loop_FollowTests.swift */; };
 		820EEC061D90A9E20067EAC7 /* Loop_FollowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EEC051D90A9E20067EAC7 /* Loop_FollowUITests.swift */; };
-		820EEC1C1D90B1610067EAC7 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820EEC1B1D90B1610067EAC7 /* WindowsAzureMobileServices.framework */; };
 		826A593F1D9871AD00B0095A /* NSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826A593E1D9871AD00B0095A /* NSBundle.swift */; };
 		826A59421D98729D00B0095A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826A59411D98729D00B0095A /* ViewController.swift */; };
 		827E996D1DB2B1FD003BA867 /* RemoteSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 827E996C1DB2B1FD003BA867 /* RemoteSettings.plist */; };
+		E0F8DE7F1E49013C003E58A5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F8DE7E1E49013C003E58A5 /* Security.framework */; };
+		E0F8DE811E490148003E58A5 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F8DE801E490148003E58A5 /* SafariServices.framework */; };
+		E0F8DE831E490152003E58A5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F8DE821E490152003E58A5 /* WebKit.framework */; };
+		E0F8DE841E490185003E58A5 /* MicrosoftAzureMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F8DE7B1E48FDFE003E58A5 /* MicrosoftAzureMobile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +53,14 @@
 		820EEC051D90A9E20067EAC7 /* Loop_FollowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop_FollowUITests.swift; sourceTree = "<group>"; };
 		820EEC071D90A9E20067EAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		820EEC191D90AFBA0067EAC7 /* Loop Follow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Loop Follow.entitlements"; sourceTree = "<group>"; };
-		820EEC1B1D90B1610067EAC7 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
 		820EEC1D1D90B2D60067EAC7 /* Azure Mobile Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Azure Mobile Services.h"; path = "Loop Follow/Azure Mobile Services.h"; sourceTree = "<group>"; };
 		826A593E1D9871AD00B0095A /* NSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundle.swift; sourceTree = "<group>"; };
 		826A59411D98729D00B0095A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		827E996C1DB2B1FD003BA867 /* RemoteSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteSettings.plist; sourceTree = "<group>"; };
+		E0F8DE7B1E48FDFE003E58A5 /* MicrosoftAzureMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftAzureMobile.framework; sourceTree = "<group>"; };
+		E0F8DE7E1E49013C003E58A5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E0F8DE801E490148003E58A5 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		E0F8DE821E490152003E58A5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				820EEC1C1D90B1610067EAC7 /* WindowsAzureMobileServices.framework in Frameworks */,
+				E0F8DE841E490185003E58A5 /* MicrosoftAzureMobile.framework in Frameworks */,
+				E0F8DE831E490152003E58A5 /* WebKit.framework in Frameworks */,
+				E0F8DE811E490148003E58A5 /* SafariServices.framework in Frameworks */,
+				E0F8DE7F1E49013C003E58A5 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +101,7 @@
 				820EEBF91D90A9E20067EAC7 /* Loop FollowTests */,
 				820EEC041D90A9E20067EAC7 /* Loop FollowUITests */,
 				820EEBE31D90A9E20067EAC7 /* Products */,
+				E0F8DE7D1E49013C003E58A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,8 +152,8 @@
 		820EEC1A1D90B1530067EAC7 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				E0F8DE7B1E48FDFE003E58A5 /* MicrosoftAzureMobile.framework */,
 				820EEC1D1D90B2D60067EAC7 /* Azure Mobile Services.h */,
-				820EEC1B1D90B1610067EAC7 /* WindowsAzureMobileServices.framework */,
 			);
 			name = Framework;
 			sourceTree = "<group>";
@@ -170,6 +180,16 @@
 				826A59411D98729D00B0095A /* ViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E0F8DE7D1E49013C003E58A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0F8DE821E490152003E58A5 /* WebKit.framework */,
+				E0F8DE801E490148003E58A5 /* SafariServices.framework */,
+				E0F8DE7E1E49013C003E58A5 /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +260,9 @@
 				TargetAttributes = {
 					820EEBE11D90A9E20067EAC7 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 698QCJS29T;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 8QU4PEB592;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -253,13 +274,15 @@
 					};
 					820EEBF51D90A9E20067EAC7 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 698QCJS29T;
+						DevelopmentTeam = 8QU4PEB592;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 820EEBE11D90A9E20067EAC7;
 					};
 					820EEC001D90A9E20067EAC7 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 698QCJS29T;
+						DevelopmentTeam = 8QU4PEB592;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 820EEBE11D90A9E20067EAC7;
 					};
@@ -396,10 +419,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ali Mazaheri (Z6KYKWZG2X)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8QU4PEB592;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -416,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -448,10 +472,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ali Mazaheri (Z6KYKWZG2X)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8QU4PEB592;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -462,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -477,26 +502,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Loop Follow/Loop Follow.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 698QCJS29T;
+				DEVELOPMENT_TEAM = 8QU4PEB592;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
+					"$(SDKROOT)/Library/System/Frameworks",
 					"$(PROJECT_DIR)",
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/WindowsAzureMobileServices.framework/Headers";
 				INFOPLIST_FILE = "Loop Follow/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Mazaheri.Loop.Follow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.komby.Loop.Follow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b0910356-9b3f-4478-b1f3-38c4ae8e8c12";
-				PROVISIONING_PROFILE_SPECIFIER = "Loop Follow Push";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/Loop Follow/Azure Mobile Services.h";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -507,26 +533,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Loop Follow/Loop Follow.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 698QCJS29T;
+				DEVELOPMENT_TEAM = 8QU4PEB592;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
+					"$(SDKROOT)/Library/System/Frameworks",
 					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = "";
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/WindowsAzureMobileServices.framework/Headers";
 				INFOPLIST_FILE = "Loop Follow/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Mazaheri.Loop.Follow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.komby.Loop.Follow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b0910356-9b3f-4478-b1f3-38c4ae8e8c12";
-				PROVISIONING_PROFILE_SPECIFIER = "Loop Follow Push";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/Follow App/Azure Mobile Services.h";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -536,7 +562,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 698QCJS29T;
+				DEVELOPMENT_TEAM = 8QU4PEB592;
 				INFOPLIST_FILE = "Loop FollowTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mazaheri.Loop-FollowTests";
@@ -551,7 +577,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 698QCJS29T;
+				DEVELOPMENT_TEAM = 8QU4PEB592;
 				INFOPLIST_FILE = "Loop FollowTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mazaheri.Loop-FollowTests";
@@ -565,7 +591,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 698QCJS29T;
+				DEVELOPMENT_TEAM = 8QU4PEB592;
 				INFOPLIST_FILE = "Loop FollowUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mazaheri.Loop-FollowUITests";
@@ -579,7 +605,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 698QCJS29T;
+				DEVELOPMENT_TEAM = 8QU4PEB592;
 				INFOPLIST_FILE = "Loop FollowUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mazaheri.Loop-FollowUITests";

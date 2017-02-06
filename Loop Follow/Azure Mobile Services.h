@@ -9,6 +9,6 @@
 #ifndef Azure_Mobile_Services_h
 #define Azure_Mobile_Services_h
 
-#import "WindowsAzureMobileServices.h"
+#import <MicrosoftAzureMobile/MicrosoftAzureMobile.h>
 
 #endif /* Azure_Mobile_Services_h */
