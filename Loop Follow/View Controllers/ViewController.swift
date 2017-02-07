@@ -17,16 +17,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let settings = NSBundle.mainBundle().remoteSettings, AzureWebURL = settings?["AzureWebURL"]
-        let url = NSURL (string: AzureWebURL!);
-        let requestObj = NSURLRequest(URL: url!);
-        refreshControl.addTarget(self, action: #selector(refresh), forControlEvents: UIControlEvents.ValueChanged)
+        let settings = Bundle.main.remoteSettings, AzureWebURL = settings?["AzureWebURL"]
+        let url = URL (string: AzureWebURL!);
+        let requestObj = URLRequest(url: url!);
+        refreshControl.addTarget(self, action: #selector(refresh), for: UIControlEvents.valueChanged)
         
         webView.scrollView.addSubview(refreshControl)
         webView.loadRequest(requestObj);
     }
     
-    func refresh(refresh: UIRefreshControl) {
+    func refresh(_ refresh: UIRefreshControl) {
         webView.reload()
         refresh.endRefreshing()
     }
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func RefreshWebView(sender: AnyObject) {
+    @IBAction func RefreshWebView(_ sender: AnyObject) {
         webView.reload()
     }
 

@@ -15,48 +15,48 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     
-    func application(application: UIApplication,
-                     didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         application.registerUserNotificationSettings(
-            UIUserNotificationSettings(forTypes: [.Alert, .Badge, .Sound],
+            UIUserNotificationSettings(types: [.alert, .badge, .sound],
                 categories: nil))
         application.registerForRemoteNotifications()
         return true
     }
     
-    func application(application: UIApplication,
-                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+    func application(_ application: UIApplication,
+                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         
-        let settings = NSBundle.mainBundle().remoteSettings, AzureMobileURL=settings?["AzureMobileServiceURL"], AzureMobileKey=settings?["AzureMobileServiceAppKey"]
+        let settings = Bundle.main.remoteSettings, AzureMobileURL=settings?["AzureMobileServiceURL"]
         
-        let sharedClient = MSClient(applicationURLString: AzureMobileURL, applicationKey: AzureMobileKey)
-
-        sharedClient.push?.registerNativeWithDeviceToken(deviceToken, tags: nil, completion: {(error) -> Void in
+       // let sharedClient = MSClient(applicationURLString: AzureMobileURL, applicationKey: AzureMobileKey)
+ let sharedClient = MSClient(applicationURLString: AzureMobileURL!)
+        sharedClient.push?.registerDeviceToken(deviceToken, completion: {(error) -> Void in
             
             if error != nil{
-                NSLog("Error registering for notifications: %@", error)
+                NSLog("Error registering for notifications: %@", error.debugDescription)
             }
             
         })
     }
-    func application(application: UIApplication,
-                     didFailToRegisterForRemoteNotificationsWithError error: NSError) {
-        print("Failed to register for remote notifications: ", error.description)
+    func application(_ application: UIApplication,
+                     didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Failed to register for remote notifications: ", error.localizedDescription)
     }
     
-    func application(application: UIApplication,
-                     didReceiveRemoteNotification userInfo: [NSObject: AnyObject]) {
+    func application(_ application: UIApplication,
+                     didReceiveRemoteNotification userInfo: [AnyHashable: Any]) {
         
         print(userInfo)
         
         let apsNotification = userInfo["aps"] as? NSDictionary
         let apsString       = apsNotification?["alert"] as? String
         
-        let alert = UIAlertController(title: "Alert", message: apsString, preferredStyle: .Alert)
-        let okAction = UIAlertAction(title: "OK", style: .Default) { _ in
+        let alert = UIAlertController(title: "Alert", message: apsString, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default) { _ in
             print("OK")
         }
-        let cancelAction = UIAlertAction(title: "Cancel", style: .Default) { _ in
+        let cancelAction = UIAlertAction(title: "Cancel", style: .default) { _ in
             print("Cancel")
         }
         
@@ -68,7 +68,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             currentViewController = currentViewController?.presentedViewController
         }
         
-        currentViewController?.presentViewController(alert, animated: true) {}
+        currentViewController?.present(alert, animated: true) {}
         
     }
     

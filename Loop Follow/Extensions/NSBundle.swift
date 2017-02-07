@@ -8,13 +8,13 @@
 
 import Foundation
 
-extension NSBundle {
+extension Bundle {
     var shortVersionString: String! {
-        return objectForInfoDictionaryKey("CFBundleShortVersionString") as? String
+        return object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
     }
     
-    private var remoteSettingsPath: String? {
-        return NSBundle.mainBundle().pathForResource("RemoteSettings", ofType: "plist")
+    fileprivate var remoteSettingsPath: String? {
+        return Bundle.main.path(forResource: "RemoteSettings", ofType: "plist")
     }
     
     var remoteSettings: [String: String]? {
