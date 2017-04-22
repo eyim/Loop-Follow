@@ -255,12 +255,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Ali Mazaheri";
 				TargetAttributes = {
 					820EEBE11D90A9E20067EAC7 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 8QU4PEB592;
+						DevelopmentTeam = 698QCJS29T;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -416,6 +416,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -440,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "fdb62be9-0d84-446f-a90a-4b8cb7d6f381";
@@ -470,6 +471,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -488,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "fdb62be9-0d84-446f-a90a-4b8cb7d6f381";
 				SDKROOT = iphoneos;
@@ -506,22 +508,22 @@
 				CODE_SIGN_ENTITLEMENTS = "Loop Follow/Loop Follow.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 8QU4PEB592;
+				DEVELOPMENT_TEAM = 698QCJS29T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Library/System/Frameworks",
 					"$(PROJECT_DIR)",
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/WindowsAzureMobileServices.framework/Headers";
 				INFOPLIST_FILE = "Loop Follow/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.komby.Loop.Follow;
+				PRODUCT_BUNDLE_IDENTIFIER = Mazaheri.Loop.Follow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bb123acd-4a35-4a8a-8401-db0824e93e36";
+				PROVISIONING_PROFILE = "c5aa569b-1edf-484d-b5f5-baad23de9018";
 				PROVISIONING_PROFILE_SPECIFIER = "Loop Follow Push";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/Loop Follow/Azure Mobile Services.h";
 				SWIFT_VERSION = 3.0;
@@ -535,7 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Loop Follow/Loop Follow.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 8QU4PEB592;
+				DEVELOPMENT_TEAM = 698QCJS29T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Library/System/Frameworks",
 					"$(PROJECT_DIR)",
@@ -543,15 +545,15 @@
 				HEADER_SEARCH_PATHS = "";
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/WindowsAzureMobileServices.framework/Headers";
 				INFOPLIST_FILE = "Loop Follow/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.komby.Loop.Follow;
+				PRODUCT_BUNDLE_IDENTIFIER = Mazaheri.Loop.Follow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bb123acd-4a35-4a8a-8401-db0824e93e36";
+				PROVISIONING_PROFILE = "083acb01-e844-4605-9be7-7c316c8eaae0";
 				PROVISIONING_PROFILE_SPECIFIER = "Loop Follow Push";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/Follow App/Azure Mobile Services.h";
 				SWIFT_VERSION = 3.0;
